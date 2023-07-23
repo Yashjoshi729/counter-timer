@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -19,22 +21,30 @@
 h1{
     letter-spacing: 5px;
     font-size: 4rem;
+    padding:10px 20px;
     text-transform: uppercase;
+    border-radius: 20px;
+    background-color: rgba(156, 225, 225, 0.75);
+    box-shadow: 0 0 45px rgb(40, 36, 36);
+    font-family: 'Rubik', sans-serif;
 }
 .countertimer {
     display: flex;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: rgba(119, 201, 174,0.75);
+    box-shadow: 0 0 45px rgb(43, 39, 39);
 }
 
 .countertimer>p {
-    /* background-color: rgb(185, 111, 227); */
     padding: 2rem;
     font-size: 1.4rem;
     text-align: center;
     text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
 }
 
 .countertimer>p>span {
     display: block;
     font-size: 4rem;
-    /* padding: 2rem; */
 }
